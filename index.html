@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
 <script src="libs/swiper/swiper-bundle.min.js" defer></script>
 <script src="libs/swiper/swiper-bundle.min.js.map" defer></script>
-<script src="libs/particles/particles.js" defer></script>
 
 <link rel="stylesheet" href="/css/main.css">
 <script src="js/app.js" defer></script>
@@ -20,11 +19,12 @@
 <body>
   
   <div class="swiper slider">
-    <div class="swiper-wrapper slider__wraper">
+    <div class="swiper-wrapper slider__wrapper">
 
       <div class="swiper-slide slider__item">
         <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(img/screen-1/layer-back.jpg);"></div>
         <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(img/screen-1/layer-middle.png);"></div>
+        <canvas class="particles slider__layer" data-swiper-parallax="18%" data-color="#B99970"></canvas>
         <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(img/screen-1/layer-front.png);"></div>
       </div>
 
